@@ -7,6 +7,8 @@ public class Ex1 {
 		
 		pattern1();
 		pattern2();
+		pattern3();
+		pattern4();
 		
 
 	}
@@ -43,4 +45,34 @@ public class Ex1 {
 		}
 		
 	}
+	
+static void pattern3(){
+		
+		for(int i=5;i>0;i--){
+			for(int j=1;j<=i-1;j++){
+				//System.out.print("-");
+				System.out.print(" ");
+			}
+			for(int k=5;k >=i;k--){
+			System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+	}
+
+static void pattern4(){
+	
+	for(int i=5;i>0;i--){
+		for(int j=5;j>i;j--){
+			//System.out.print("-");
+			System.out.print(" ");
+		}
+		for(int k=0;k < i;k++){
+		System.out.print("*");
+		}
+		System.out.println();
+	}
+	
+}
 }
