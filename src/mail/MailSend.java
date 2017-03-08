@@ -30,7 +30,7 @@
 //        // Sender's email ID needs to be mentioned
 //       // String from = "abc@gmail.com";//change accordingly
 //        final String username = "imasaravanakumarp@gmail.com";//change accordingly
-//        final String password = "fazer3736";//change accordingly
+//        final String password = "test";//change accordingly
 //
 //        // Assuming you are sending email through relay.jangosmtp.net
 //        String host = "smtp.gmail.com";
