@@ -5,12 +5,15 @@ public class Ex1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		pattern1();
+		/*pattern1();
 		pattern2();
 		pattern3();
-		pattern4();
+		pattern4();*/
 		
-
+		//pattern6();
+		
+		//pattern7();
+		pattern8();
 	}
 	
     /*
@@ -62,7 +65,6 @@ static void pattern3(){
 	}
 
 static void pattern4(){
-	
 	for(int i=5;i>0;i--){
 		for(int j=5;j>i;j--){
 			//System.out.print("-");
@@ -75,4 +77,89 @@ static void pattern4(){
 	}
 	
 }
+	
+	static void pattern6(){
+		int t=5;
+		for(int i=1;i<=5;i++){
+			for(int j=1;j<t;j++){
+				//System.out.print("-");
+				System.out.print(" ");
+			}
+			t--;
+			for(int k=1;k <= 2*i-1;k++){
+			System.out.print("*");
+		
+			}
+			System.out.println();
+		}
+}
+	
+	static void pattern7(){
+		int t=5;
+		for(int i=1;i<=5;i++){
+			for(int j=1;j<t;j++){
+				//System.out.print("-");
+				System.out.print(" ");
+			}
+			t--;
+			for(int k=1;k <= 2*i-1;k++){
+			System.out.print("*");
+		
+			}
+			System.out.println();
+		}
+		t=1; 
+		for(int i=1;i<=5-1;i++){
+			for(int j=1;j<=t;j++){
+				//System.out.print("-");
+				System.out.print(" ");
+			}
+			t++;
+			
+			for(int k=1;k<=(2*(5-i))-1;k++){
+			  System.out.print("*");	
+			}
+			System.out.println();
+		}	
+}
+	
+	
+	static void pattern8(){
+		int t=5;
+		for(int i=1;i<=5;i++){
+			for(int j=1;j<t;j++){
+				//System.out.print("-");
+				System.out.print(" ");
+			}
+			t--;
+			for(int k=1;k <= 2*i-1;k++){
+				if(k==1||k==(2*i)-1){
+			    System.out.print("*");
+				}else{
+					System.out.print("#");
+				}
+		
+			}
+			System.out.println();
+		}
+		t=1; 
+		for(int i=1;i<=5-1;i++){
+			for(int j=1;j<=t;j++){
+				//System.out.print("-");
+				System.out.print(" ");
+			}
+			t++;
+			
+			for(int k=1;k<=(2*(5-i))-1;k++){
+				if(k==1||k==(2*(5-i))-1){
+				    System.out.print("*");
+			}else{
+				System.out.print("#");
+			}
+			  
+			}
+			System.out.println();
+		}	
+}
+	
 }
