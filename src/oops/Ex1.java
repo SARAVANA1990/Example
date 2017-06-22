@@ -34,7 +34,7 @@ public class Ex1 {
 		}*/
 		
 		
-		Integer a[]={1,2,3,4,5};
+	/*	Integer a[]={1,2,3,4,5};
 		Integer b[]={3,4,5,6,7,8,9};
 		
 		Set<Integer> set1 =new HashSet<Integer>(Arrays.asList(a));
@@ -50,6 +50,29 @@ public class Ex1 {
 		set1.addAll(set2);
 		System.out.println(set1);
 
+		*/
+		
+		/*Integer a[]={1,2,3,4,5};
+		Integer b[]={3,4,5,6,7,8,9};
+		
+		Set<Integer> set1 =new HashSet<Integer>(Arrays.asList(a));
+		Set<Integer> set2 =new HashSet<Integer>(Arrays.asList(b));
+		
+		set1.addAll(set2);
+		System.out.println(set1.toArray()[6]);*/
+		
+		String a="this is my pen";
+		String[] w=a.split(" ");
+		System.out.println(w[0]);
+		
+		String s = "I want to walk my dog";
+
+		 String[] arr = s.split(" ");    
+
+		 for ( String ss : arr) {
+
+		       System.out.println(ss);
+		  }
 		
 	}
 
