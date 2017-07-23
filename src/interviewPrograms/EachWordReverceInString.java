@@ -7,7 +7,7 @@ public class EachWordReverceInString {
 		String arr[]=orginalStr.split(" ");
 	
 		for(String s:arr){
-		 System.out.print(strRev(s));	
+		 System.out.print(s);	
 		}
 		
 	}
@@ -17,9 +17,7 @@ public class EachWordReverceInString {
 		int j=0;
 		char[] s = null;
 		for(int i=chr.length-1;i>=0;i--){
-			 s[j++]=chr[i];
-			
-		
+			// s[j++]=chr[i];
 		}
 		
 		
