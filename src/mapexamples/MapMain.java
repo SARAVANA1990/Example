@@ -61,13 +61,10 @@ public class MapMain {
 					valuelist4.add("valuelist41");
 					valuelist4.add("valuelist42");
 					valuelist4.add("valuelist43");*/
+			mapListofList.put(keylist1, valuelist1);
+			mapListofList.put(keylist2, valuelist2);
 						
-					
-	
-						mapListofList.put(keylist1, valuelist1);
-						mapListofList.put(keylist2, valuelist2);
-						
-						mapItr.mapItrFor8(mapListofList,"K12","ListofList");
+			mapItr.mapItrFor8(mapListofList,"K12","ListofList");
 					
 		
 	}

@@ -2,6 +2,7 @@ package mapexamples;
 
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 public class MapItr {
 	
@@ -59,6 +60,42 @@ public class MapItr {
 			});
 		});
 		
+		
+		
+		
+		
+		/*mapList.forEach((k,v)->{*/
+			 /* k.forEach((k1)->{
+            
+            if(k1.equals(a)){
+            	  System.out.println("key--->"+k1);
+					 v.forEach((v1)->{
+						 System.out.println("value--->"+v1);
+					 });
+           }
+			
+			
+			
+			
+			
+		});
+			
+	       k.stream()
+			.filter(s->s.contains(a))
+			//.forEach(s1->System.out.println(s1));
+			.forEach(v.forEach((v1)->{
+				
+			})
+			
+		
+			
+			
+			
+	});
+		
+		
+		/*List<String> matchingKeys = mapList.entrySet().stream().filter( e -> e.getKey().contains(a))
+				  .mapList(e -> e.getKey()).collect(Collectors.toList());*/
 		
 		
 		
